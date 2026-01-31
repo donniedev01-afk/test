@@ -1,1 +1,215 @@
-<h1>Test donnie</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Personal Brand</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #0f172a, #020617);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        header h1 span {
+            color: #38bdf8;
+        }
+
+        header p {
+            margin: 20px 0;
+            font-size: 1.1rem;
+            max-width: 600px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 28px;
+            background: #38bdf8;
+            color: #020617;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            color: #cbd5f5;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .skill-card {
+            background: #020617;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid #1e293b;
+        }
+
+        .skill-card h3 {
+            margin-bottom: 10px;
+            color: #38bdf8;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: #020617;
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid #1e293b;
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <div>
+            <h1>Hi, I'm <span>Your Name</span></h1>
+            <p>
+                I help brands and people stand out online through design,
+                development, and storytelling.
+            </p>
+            <a href="#contact" class="btn">Work With Me</a>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a creative professional focused on building strong digital
+            identities. Whether it's a website, brand strategy, or content,
+            I aim to create meaningful and impactful experiences.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>What I Do</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <h3>Web Design</h3>
+                <p>Modern, clean, and user-focused interfaces.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Development</h3>
+                <p>Fast, responsive, and scalable websites.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Branding</h3>
+                <p>Visual identity & personal brand strategy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>Short description of what you built or achieved.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Short description of what you built or achieved.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Short description of what you built or achieved.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p style="text-align:center;">
+            Let’s connect →
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Your Name. Built with ❤️
+    </footer>
+
+</body>
+</html>
